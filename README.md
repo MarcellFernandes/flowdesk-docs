@@ -77,29 +77,6 @@ Reference materials useful for support and training:
 
 ---
 
-## 🧩 Contributing
-
-To help improve this documentation:
-
-1. Fork this repository.
-2. Create a branch for your feature or fix.
-3. Add or update sections with clarity and consistency.
-4. Submit a Pull Request with a detailed description of your changes.
-
----
-
-## 📜 License
-
-This project is open for documentation contributions and continuous improvement. Please follow style and clarity guidelines when proposing changes.
-
----
-
-## 💬 Questions or Support
-
-This documentation aims to provide clear guidance for both new and experienced FlowDesk users. If you find gaps or have ideas for expansion, please open an issue or submit an improvement proposal in this repository.
-
----
-
 ## 📬 Contact
 
 **Marcell Vaz Fernandes — Technical Writer**  
