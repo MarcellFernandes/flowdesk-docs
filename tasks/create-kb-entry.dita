@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="create-kb-entry">
+  <title>Create a Knowledge Base Entry</title>
+  <taskbody>
+    <prereq>
+      <p>
+        You must be logged into flowDesk with technician or manager permissions.
+        The incident or solution details must already be validated.
+      </p>
+    </prereq>
+    <context>
+      <p>
+        Knowledge Base (KB) entries document recurring solutions, known issues,
+        and operational procedures. Creating structured KB articles improves
+        resolution time and supports self-service troubleshooting.
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          Navigate to the <b>Knowledge Base</b> section.
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          Click <b>Create New Article</b>.
+        </cmd>
+      </step>
+      <step>
+        <cmd>Enter a clear and descriptive title for the article.</cmd>
+      </step>
+      <step>
+        <cmd>Provide a detailed problem description including symptoms and impact.</cmd>
+      </step>
+      <step>
+        <cmd>Document the resolution steps in a structured and sequential format.</cmd>
+      </step>
+      <step>
+        <cmd>Assign relevant tags and categories to improve searchability.</cmd>
+      </step>
+      <step>
+        <cmd>
+          Click <b>Save</b> to publish the entry.
+        </cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        The Knowledge Base article is published and becomes searchable within
+        the platform. Authorized users can reference it for future incidents.
+      </p>
+    </result>
+    <postreq>
+      <p>
+        Review the article periodically to ensure technical accuracy and
+        update it when system changes occur.
+      </p>
+    </postreq>
+  </taskbody>
+</task>

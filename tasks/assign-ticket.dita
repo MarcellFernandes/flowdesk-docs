@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="assign-ticket">
+  <title>Assign a Ticket</title>
+  <taskbody>
+    <prereq>
+      <p>
+        You must be logged into flowDesk with technician or manager permissions.
+        A ticket must already exist in the system.
+      </p>
+    </prereq>
+    <context>
+      <p>
+        Assigning a ticket ensures that responsibility is clearly defined and that
+        incidents are handled by the appropriate technician. Proper assignment
+        improves accountability and response time.
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          Open the <b>Tickets</b> dashboard.
+        </cmd>
+      </step>
+      <step>
+        <cmd>Select the ticket you want to assign.</cmd>
+      </step>
+      <step>
+        <cmd>
+          Click the <b>Assign</b> option in the ticket actions menu.
+        </cmd>
+      </step>
+      <step>
+        <cmd>Choose the technician from the assignment list.</cmd>
+      </step>
+      <step>
+        <cmd>Confirm the assignment.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        The ticket is now assigned to the selected technician. Ownership and
+        tracking are updated automatically.
+      </p>
+    </result>
+    <postreq>
+      <p>
+        The assigned technician can now begin investigation and resolution
+        procedures.
+      </p>
+    </postreq>
+  </taskbody>
+</task>

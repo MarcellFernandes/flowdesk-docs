@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="incident-priority-matrix">
+  <title>Incident Priority Matrix</title>
+  <refbody>
+    <section>
+      <title>Priority Classification Model</title>
+      <p>
+        FlowDesk classifies incidents based on business impact and operational urgency.
+        This model ensures consistent response behavior and resource allocation during
+        incident handling.
+      </p>
+      <p>
+        Priority levels guide escalation paths, response expectations,
+        and visibility requirements.
+      </p>
+    </section>
+    <section>
+      <title>Priority Matrix</title>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="4" colsep="1" rowsep="1">
+          <!-- Column proportions -->
+          <colspec colname="priority" colwidth="1.2*"/>
+          <colspec colname="impact" colwidth="2.2*"/>
+          <colspec colname="urgency" colwidth="1*"/>
+          <colspec colname="expectation" colwidth="2.6*"/>
+          <thead>
+            <row>
+              <entry>Priority Level</entry>
+              <entry>Business Impact</entry>
+              <entry>Urgency</entry>
+              <entry>Operational Expectation</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Critical (P1)</entry>
+              <entry>Service outage affecting multiple business units</entry>
+              <entry>Immediate</entry>
+              <entry>Rapid escalation, continuous response until resolution</entry>
+            </row>
+            <row>
+              <entry>High (P2)</entry>
+              <entry>Major functionality degraded</entry>
+              <entry>High</entry>
+              <entry>Accelerated response with priority resource allocation</entry>
+            </row>
+            <row>
+              <entry>Medium (P3)</entry>
+              <entry>Limited operational disruption</entry>
+              <entry>Moderate</entry>
+              <entry>Scheduled resolution within standard workflow</entry>
+            </row>
+            <row>
+              <entry>Low (P4)</entry>
+              <entry>Minor inconvenience or informational request</entry>
+              <entry>Low</entry>
+              <entry>Handled through routine operational queue</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Escalation Guidance</title>
+      <p>
+        Incidents may be reclassified as new information becomes available.
+        Escalation procedures ensure that priority adjustments reflect actual
+        service impact and operational risk.
+      </p>
+    </section>
+    <section>
+      <title>Operational Consistency</title>
+      <p>
+        Applying the matrix consistently improves service predictability,
+        reporting accuracy, and stakeholder communication.
+      </p>
+    </section>
+  </refbody>
+</reference>

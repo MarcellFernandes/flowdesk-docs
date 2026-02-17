@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="analyst-onboarding">
+  <title>Onboard a New Analyst</title>
+  <taskbody>
+    <prereq>
+      <p>
+        Ensure the analyst account has been created with Technician role permissions and that access credentials have been securely delivered.
+      </p>
+    </prereq>
+    <context>
+      <p>
+        This procedure prepares a newly assigned technician to operate within FlowDesk. The onboarding process establishes platform familiarity, operational awareness, and compliance with service workflows.
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Log in to FlowDesk using assigned credentials.</cmd>
+        <info>
+          <p>Verify successful authentication and role access.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Review the dashboard layout and ticket queue interface.</cmd>
+        <info>
+          <p>Identify assigned ticket panels, notification areas, and status indicators.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Open a sample ticket to examine lifecycle states and activity logs.</cmd>
+        <info>
+          <p>Observe how updates, timestamps, and audit entries are recorded.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Access the knowledge base and review existing troubleshooting articles.</cmd>
+        <info>
+          <p>Familiarize yourself with documentation standards and knowledge structure.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Simulate ticket workflow actions in a training or sandbox environment.</cmd>
+        <info>
+          <p>Practice assignment acknowledgment, status updates, and resolution logging.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Confirm understanding of escalation paths and priority handling.</cmd>
+        <info>
+          <p>Review internal procedures for high-impact incidents.</p>
+        </info>
+      </step>
+    </steps>
+    <result>
+      <p>
+        The analyst is prepared to receive and manage assigned tickets, apply operational procedures, and contribute to knowledge capture within FlowDesk.
+      </p>
+    </result>
+    <postreq>
+      <p>
+        Supervisors may validate onboarding completion through a guided review or operational readiness check.
+      </p>
+    </postreq>
+  </taskbody>
+</task>

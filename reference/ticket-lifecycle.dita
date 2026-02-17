@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="ticket-lifecycle">
+  <title>Ticket Lifecycle Reference</title>
+  <refbody>
+    <section>
+      <title>Lifecycle Overview</title>
+      <p>
+        FlowDesk uses a structured ticket lifecycle to ensure consistent tracking, accountability, and service transparency. Each ticket progresses through defined states that reflect operational activity from creation to closure.
+      </p>
+    </section>
+    <section>
+      <title>Lifecycle States</title>
+      <table>
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>Status</entry>
+              <entry>Description</entry>
+              <entry>Operational Meaning</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>New</entry>
+              <entry>Ticket has been created and logged.</entry>
+              <entry>Awaiting triage or assignment.</entry>
+            </row>
+            <row>
+              <entry>Assigned</entry>
+              <entry>Ticket is allocated to a technician.</entry>
+              <entry>Work responsibility established.</entry>
+            </row>
+            <row>
+              <entry>In Progress</entry>
+              <entry>Active investigation or resolution is underway.</entry>
+              <entry>Technician is performing operational work.</entry>
+            </row>
+            <row>
+              <entry>Pending</entry>
+              <entry>Work is temporarily paused awaiting external input.</entry>
+              <entry>Requires user feedback, approval, or dependency resolution.</entry>
+            </row>
+            <row>
+              <entry>Resolved</entry>
+              <entry>Solution has been applied and validated.</entry>
+              <entry>Awaiting final confirmation or closure.</entry>
+            </row>
+            <row>
+              <entry>Closed</entry>
+              <entry>Ticket lifecycle is complete.</entry>
+              <entry>No further operational action required.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section>
+      <title>Status Transitions</title>
+      <p>
+        Tickets progress sequentially through lifecycle states, though controlled transitions allow reassignment or reopening when necessary. Transition permissions are governed by role policies to preserve accountability.
+      </p>
+    </section>
+    <section>
+      <title>Operational Integrity</title>
+      <p>
+        Maintaining accurate ticket status ensures reliable reporting, workload visibility, and service auditing. Teams are expected to update lifecycle states in alignment with actual operational progress.
+      </p>
+    </section>
+  </refbody>
+</reference>
