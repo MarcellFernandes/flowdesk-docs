@@ -10,114 +10,93 @@ Live demo: [https://marcellfernandes.github.io/flowdesk-docs/](https://marcellfe
 
 ---
 
-## 📖 About the Project
+## 🚀 Overview
 
-This repository contains structured documentation for FlowDesk, including:
+The documentation covers:
 
-- **Conceptual topics**: Platform overview, incident lifecycle, service levels  
-- **Procedures / tasks**: Creating incidents, ticket escalation, SLA configuration  
-- **Reference material**: Incident states, priority & SLA matrices  
-- **Reusable content**: Notes, warnings, shared snippets  
-
-The project showcases:
-
-- Topic-based authoring with **concepts, tasks, and references**  
-- Information architecture for multi-audience documentation  
-- Procedural clarity and troubleshooting workflows  
-- HTML output with **custom styling** using DITA-OT  
+- **Platform overview**
+- **Incident management practices**
+- **Knowledge base usage**
+- **User roles and permissions**
+- **Standard operating procedures (SOPs)**
+- **Critical process references**
 
 ---
 
-## 📁 Repository Structure
+## 📂 Documentation Structure
 
-```
-flowdesk-docs/
-├── flowDesk.ditamap        # Main DITA map (documentation structure)
-├── custom.css              # Custom stylesheet for HTML output
-│
-├── concepts/               # Conceptual topics
-│   ├── platform-overview.dita
-│   ├── incident-lifecycle.dita
-│   └── service-levels.dita
-│
-├── tasks/                  # How-to guides and procedures
-│   ├── create-incident.dita
-│   ├── escalate-ticket.dita
-│   └── configure-sla.dita
-│
-├── reference/              # Reference materials
-│   ├── incident-states.dita
-│   ├── priority-matrix.dita
-│   └── sla-matrix.dita
-│
-├── shared/                 # Reusable content components
-│   ├── notes.dita
-│   └── warnings.dita
-│
-└── output/                 # Generated HTML (local builds)
-    └── index.html
-```
+### 📌 High-Level Overview
+
+1. **FlowDesk Platform Overview**  
+   Introduction to the platform and its objectives.
+
+2. **Incident Management Overview**  
+   Core concepts for managing incidents effectively.
+
+3. **Knowledge Base Overview**  
+   How to use and maintain the knowledge base.
+
+4. **User Roles Overview**  
+   Explanation of user roles and associated permissions.
 
 ---
 
-## 🛠️ Building the Documentation
+### 🧠 Standard Operating Procedures
 
-### Prerequisites
-- **DITA Open Toolkit** (v4.4 or later)  
-- **Java Runtime Environment** (JRE 8+)
+Step-by-step guides for performing critical operations:
 
-### Local Build
+- **Onboard a New Analyst**  
+  Guide to adding and configuring a new analyst.
 
-```bash
-# Windows (adjust path to your DITA-OT installation)
-C:\dita-ot-4.4\bin\dita.bat -i flowDesk.ditamap -f html5 -o output -Dargs.css=custom.css
+- **Open a Support Ticket**  
+  How to properly create a new support ticket.
 
-# Linux / macOS
-~/dita-ot-4.4/bin/dita -i flowDesk.ditamap -f html5 -o output -Dargs.css=custom.css
-```
+- **Assign a Ticket**  
+  Processes for assigning tickets to responsible users.
 
-After building, open `output/index.html` in your browser.
+- **Resolve an Incident**  
+  Procedure to resolve reported incidents.
 
-### Quick Build Script
-
-**Windows (build.bat):**
-```batch
-@echo off
-C:\dita-ot-4.4\bin\dita.bat -i flowDesk.ditamap -f html5 -o output -Dargs.css=custom.css
-echo Build complete! Open output/index.html
-```
-
-**Linux / macOS (build.sh):**
-```bash
-#!/bin/bash
-~/dita-ot-4.4/bin/dita -i flowDesk.ditamap -f html5 -o output -Dargs.css=custom.css
-echo "Build complete! Open output/index.html"
-```
+- **Create a Knowledge Base Entry**  
+  How to create and publish content in the knowledge base.
 
 ---
 
-## 🌐 Publishing
+### 📊 Technical References
 
-### GitHub Pages (Manual)
-1. Build the HTML locally (`output/`)  
-2. Copy contents of `output/` to a `docs/` folder in the repo **or** use a separate `gh-pages` branch  
-3. Enable GitHub Pages in repository settings
+Reference materials useful for support and training:
 
-### GitHub Pages + Actions (Automated)
-Use a DITA GitHub Actions workflow template for automated builds on every push.
+- **Incident Priority Matrix**  
+  Priority matrix with criteria for classifying incidents.
+
+- **Roles and Permissions Reference**  
+  Detailed restrictions and permissions by role.
+
+- **Ticket Lifecycle Reference**  
+  Full lifecycle of a support ticket: from creation to closure.
 
 ---
 
-## 📝 Skills Demonstrated
+## 🧩 Contributing
 
-| Skill                    | Application |
-|---------------------------|------------|
-| **DITA XML**              | Topic-based authoring (concepts, tasks, references) |
-| **Information Architecture** | Structured documentation following DITA standards |
-| **Technical Writing**     | Clear, concise procedures and conceptual explanations |
-| **Documentation Styling** | Custom CSS for HTML output |
-| **Version Control**       | Git and GitHub for documentation management |
-| **Build Automation**      | DITA-OT command-line usage |
+To help improve this documentation:
+
+1. Fork this repository.
+2. Create a branch for your feature or fix.
+3. Add or update sections with clarity and consistency.
+4. Submit a Pull Request with a detailed description of your changes.
+
+---
+
+## 📜 License
+
+This project is open for documentation contributions and continuous improvement. Please follow style and clarity guidelines when proposing changes.
+
+---
+
+## 💬 Questions or Support
+
+This documentation aims to provide clear guidance for both new and experienced FlowDesk users. If you find gaps or have ideas for expansion, please open an issue or submit an improvement proposal in this repository.
 
 ---
 
